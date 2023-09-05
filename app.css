@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+}
+.carta-forbice-pietra {
+  padding: 10px;
+  background-color: rgb(25, 25, 25);
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.rock-button,
+.paper-button,
+.scissors-button {
+  padding: 30px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 2px;
+  background-color: transparent;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.pic {
+  height: 50px;
+}
+.reset-button {
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  padding: 12px 15px;
+  cursor: pointer;
+}
